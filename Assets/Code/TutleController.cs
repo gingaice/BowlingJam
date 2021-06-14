@@ -43,7 +43,7 @@ public class TutleController : MonoBehaviour
         {
             _isPressed = false;
             //float _speedfling = Time.deltaTime * _speedHeld;
-            //transform.rotation = Quaternion.AngleAxis(_speedfling, Vector3.right);
+            transform.rotation = Quaternion.AngleAxis(_speedfling, Vector3.back);
             m_rigidbody.velocity = _speedfling * transform.forward;
         }
 
