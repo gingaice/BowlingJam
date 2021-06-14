@@ -26,6 +26,8 @@ public class BallController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         _speedfling = _speedHeld;
 
         if (_isPressed == true)
@@ -43,7 +45,7 @@ public class BallController : MonoBehaviour
         {
             _isPressed = false;
             //float _speedfling = Time.deltaTime * _speedHeld;
-            //transform.rotation = Quaternion.AngleAxis(_speedfling, Vector3.right);
+            transform.rotation = Quaternion.AngleAxis(_speedfling, Vector3.right);
             m_rigidbody.velocity = _speedfling * transform.forward;
         }
 
