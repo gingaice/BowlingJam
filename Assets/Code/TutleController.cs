@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TutleController : MonoBehaviour
 {
-    public float speed = 15.0f;
+    public float speed = 25.0f;
     public GameObject turtle;
 
     public float _speedfling = 0;
