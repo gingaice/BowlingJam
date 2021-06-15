@@ -1317,8 +1317,8 @@ Transform:
   m_Children:
   - {fileID: 676477071}
   - {fileID: 1047259937}
-  - {fileID: 1546069334}
   - {fileID: 788749592}
+  - {fileID: 1546069334}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1449,12 +1449,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ac1b45fc07ac943adf2ffed948996e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _BowlBall: {fileID: 0}
+  _BowlBall: {fileID: 1794935235}
   _Fridge: {fileID: 0}
-  _Turtle: {fileID: 0}
+  _Toaster: {fileID: 0}
+  _fireEx: {fileID: 0}
+  _manLegs: {fileID: 0}
+  _fish: {fileID: 0}
+  spawn: {fileID: 0}
   genSpeed: 0
   subSpeed: 0
-  isSpinning: 0
 --- !u!23 &566470838
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2289,7 +2292,7 @@ Transform:
   m_LocalScale: {x: 3.353058, y: 0.39687586, z: 3.3530593}
   m_Children: []
   m_Father: {fileID: 537080727}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &808342458
 GameObject:
@@ -3981,7 +3984,7 @@ Transform:
   m_LocalScale: {x: 0.25499988, y: 0.5106957, z: 0.13703899}
   m_Children: []
   m_Father: {fileID: 537080727}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1546069335
 BoxCollider:

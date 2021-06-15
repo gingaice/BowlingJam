@@ -7,11 +7,16 @@ public class BallPicker : MonoBehaviour
 {
     public Transform _BowlBall;
     public Transform _Fridge;
-    public Transform _Turtle;
+    public Transform _Toaster;
+    public Transform _fireEx;
+    public Transform _manLegs;
+    public Transform _fish;
+
+    public Transform spawn;
 
     public float genSpeed;
     public float subSpeed;
-    public bool isSpinning = false;
+    public static bool isSpinning = false;
 
     // Start is called before the first frame update
 
@@ -33,6 +38,11 @@ public class BallPicker : MonoBehaviour
             genSpeed = 0;
             isSpinning = false;
         }
+
+
+
+
+
     }
 
 
