@@ -18,9 +18,12 @@ public class BallPicker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            SpinWheel();
+        }
 
-
-        if(isSpinning == true)
+        if (isSpinning == true)
         {
             transform.Rotate(0, 0, genSpeed, Space.World);
             genSpeed -= subSpeed;
@@ -31,6 +34,9 @@ public class BallPicker : MonoBehaviour
             isSpinning = false;
         }
     }
+
+
+    //need to make it with triggers so when the little pingy enters the trigger
 
     public void SpinWheel()
     {
