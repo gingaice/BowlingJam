@@ -8,6 +8,7 @@ public class ScoreSystem : MonoBehaviour
     public static int _score = 0;
 
     public bool _fallen;
+    //public static bool _standing;
 
     public Text _countCurrent;
     // Start is called before the first frame update
@@ -24,9 +25,17 @@ public class ScoreSystem : MonoBehaviour
             Destroy(this.gameObject);
         }
 
+
         _countCurrent.text = _score.ToString();
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.name == "Pin")
+        {
+            //_standing = true;
+        }
+    }
     void OnTriggerExit(Collider other)
     {
         if(other.name == "Pin")
