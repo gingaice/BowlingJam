@@ -22,13 +22,14 @@ public class StartAngles : MonoBehaviour
 
     public float rotateSpeed;
 
+    public float tickSpeed;
+    public float halfSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
 
         num = 1;
-        
-
         movingLeft = false;
 
         canShoot = false;
@@ -36,7 +37,11 @@ public class StartAngles : MonoBehaviour
         Power = false;
         Prep = true;
 
-        rotateSpeed = 1.0f;
+        rotateSpeed = 4.0f;
+        tickSpeed = 0.4f;
+        halfSpeed = 0.2f;
+
+
 
     }
 
@@ -86,6 +91,14 @@ public class StartAngles : MonoBehaviour
             num += 1;
             movingRight = false;
         }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            num = 0;
+            goingLeft = false;
+            goingRight = false;
+            StopAllCoroutines();
+        }
     }
 
     IEnumerator Ang()
@@ -93,28 +106,28 @@ public class StartAngles : MonoBehaviour
         goingRight = true;
 
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(halfSpeed);
 
         goingRight = false;
         goingLeft = true;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(tickSpeed);
 
         goingLeft = false;
         goingRight = true;
 
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(tickSpeed);
 
         goingRight = false;
         goingLeft = true;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(tickSpeed);
 
         goingRight = true;
         goingLeft = false;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(halfSpeed);
 
         StartCoroutine(Ang());
     }
