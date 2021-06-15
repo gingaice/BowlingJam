@@ -10,12 +10,17 @@ public class BallController : MonoBehaviour
     public float _speedfling = 0;
     public bool _isPressed;
     public float _speedHeld = 0;
-    public float number = 35;
+    public float number = 169;
 
     private Rigidbody m_rigidbody;
+
+    public int num;
+
     // Start is called before the first frame update
     void Start()
     {
+        num = 0;
+
         Cursor.lockState = CursorLockMode.Locked;
 
         _isPressed = false;
@@ -34,27 +39,33 @@ public class BallController : MonoBehaviour
         {
             StartCoroutine(Power());
             float _speedfling = Time.deltaTime * _speedHeld;
+
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
             _isPressed = true;
 
+            num += 1;
             //_speedHeld += number * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if(_isPressed == true)
             {
-
+                if(num != 0)
+                {
+                    m_rigidbody.velocity = _speedfling * transform.forward;
+                }
+                
             }
         }
 
 
         else if (Input.GetKeyUp(KeyCode.UpArrow))
         {
-            _isPressed = false;
+            //_isPressed = false;
             //float _speedfling = Time.deltaTime * _speedHeld;
             //transform.rotation = Quaternion.AngleAxis(_speedfling, Vector3.right);
             //m_rigidbody.velocity = _speedfling * transform.forward;
