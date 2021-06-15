@@ -9,24 +9,33 @@ public class BallPicker : MonoBehaviour
     public Transform _Fridge;
     public Transform _Turtle;
 
+    public float genSpeed;
+    public float subSpeed;
+    public bool isSpinning = false;
+
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+
+
+        if(isSpinning == true)
         {
-            //StartCoroutine(Ing());
+            transform.Rotate(0, 0, genSpeed, Space.World);
+            genSpeed -= subSpeed;
+        }
+        if(genSpeed <= 0)
+        {
+            genSpeed = 0;
+            isSpinning = false;
         }
     }
-/**
-    IEnumerator Ing()
+
+    public void SpinWheel()
     {
-        Random.RandomRange
+        genSpeed = Random.Range(2.0f, 5.0f);
+        subSpeed = Random.Range(0.003f, 0.009f);
+        isSpinning = true;
     }
-**/
 }
