@@ -24,12 +24,7 @@ public class BallPickerPick : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _spawnedIn1 = false;
-        _spawnedIn2 = false;
-        _spawnedIn3 = false;
-        _spawnedIn4 = false;
-        _spawnedIn5 = false;
-        _spawnedIn6 = false;
+
     }
 
     // Update is called once per frame
@@ -86,9 +81,9 @@ public class BallPickerPick : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("picker"))
+        if (other.CompareTag("obj"))
         {
-            _spawnedIn1 = true;
+            Debug.Log("OwO");
 
             if (other.gameObject.name == "BowlinBall")
             {
