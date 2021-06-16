@@ -6,11 +6,15 @@ public class BallController : MonoBehaviour
 {
     public float speed = 7.0f;
     public GameObject ball;
+    public Transform Ball;
+    public Transform spawn;
 
     public float _speedfling = 0;
     public bool _isPressed;
     public float _speedHeld = 0;
     public float number = 35;
+
+    public float zero = 0;
 
     private Rigidbody m_rigidbody;
     // Start is called before the first frame update
@@ -77,7 +81,13 @@ public class BallController : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
         }
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("respawner"))
+        {
+            Ball.position = spawn.position;
+        }
+    }
     IEnumerator Power()
     {
         _speedHeld += number * Time.deltaTime;

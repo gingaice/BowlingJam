@@ -15,6 +15,7 @@ public class ScoreSystem : MonoBehaviour
     public Text _countCurrent;
 
     public Image Strike;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,10 +38,10 @@ public class ScoreSystem : MonoBehaviour
             SpareChance = true;
         }
 
-        if(SpareChance == true)
-        {
-
-        }
+        //if(SpareChance == true)
+        //{
+            //ball.position = spawn.position;
+        //}
 
 
         if(_score >= 10)

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - picker
+  - ball
+  - respawner
   layers:
   - Default
   - TransparentFX
