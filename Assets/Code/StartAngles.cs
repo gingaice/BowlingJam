@@ -58,13 +58,13 @@ public class StartAngles : MonoBehaviour
 
         if (goingRight == true)
         {
-            Debug.Log("right");
+            //Debug.Log("right");
             transform.rotation = Quaternion.LookRotation(newDirection);
         }
 
         if (goingLeft == true)
         {
-            Debug.Log("left");
+            //Debug.Log("left");
             transform.rotation = Quaternion.LookRotation(newerDirection);
         }
 

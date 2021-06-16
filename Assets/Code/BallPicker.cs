@@ -5,19 +5,10 @@ using UnityEngine.UI;
 
 public class BallPicker : MonoBehaviour
 {
-    public Transform _BowlBall;
-    public Transform _Fridge;
-    public Transform _Toaster;
-    public Transform _fireEx;
-    public Transform _manLegs;
-    public Transform _fish;
-
-    public Transform spawn;
-
     public float genSpeed;
     public float subSpeed;
-    public static bool isSpinning = false;
-
+    public bool isSpinning = false;
+    public static bool isSpinster = false;
     // Start is called before the first frame update
 
     // Update is called once per frame
@@ -37,12 +28,8 @@ public class BallPicker : MonoBehaviour
         {
             genSpeed = 0;
             isSpinning = false;
+            isSpinster = false;
         }
-
-
-
-
-
     }
 
 
@@ -53,5 +40,91 @@ public class BallPicker : MonoBehaviour
         genSpeed = Random.Range(2.0f, 5.0f);
         subSpeed = Random.Range(0.003f, 0.009f);
         isSpinning = true;
+        isSpinster = true;
     }
 }
+
+/**    
+ * 
+ *         if (_spawnedIn1 == true)
+        {
+            _BowlBall.position = spawn.position;
+        }
+
+        if (_spawnedIn2 == true)
+        {
+            _Fridge.position = spawn.position;
+        }
+
+        if (_spawnedIn3 == true)
+        {
+            _manLegs.position = spawn.position;
+        }
+
+        if (_spawnedIn4 == true)
+        {
+            _Toaster.position = spawn.position;
+        }
+
+        if (_spawnedIn5 == true)
+        {
+            _fish.position = spawn.position;
+        }
+
+        if (_spawnedIn6 == true)
+        {
+            _fireEx.position = spawn.position;
+        }
+
+
+ * private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "bowlin")
+        {
+            if (isSpinning == false)
+            {
+                _spawnedIn1 = true;
+            }
+        }
+
+        if (other.name == "frige")
+        {
+            if (isSpinning == false)
+            {
+                _spawnedIn2 = true;
+            }
+        }
+
+        if (other.name == "men legs")
+        {
+            if (isSpinning == false)
+            {
+                _spawnedIn3 = true;
+            }
+        }
+
+        if (other.name == "toaster")
+        {
+            if (isSpinning == false)
+            {
+                _spawnedIn4 = true;
+            }
+        }
+
+        if (other.name == "fish")
+        {
+            if (isSpinning == false)
+            {
+                _spawnedIn5 = true;
+            }
+        }
+
+        if (other.name == "fire")
+        {
+            if (isSpinning == false)
+            {
+                _spawnedIn6 = true;
+            }
+        }
+    }
+**/

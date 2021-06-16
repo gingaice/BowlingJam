@@ -8,13 +8,15 @@ public class ScoreSystem : MonoBehaviour
     public static int _score = 0;
 
     public bool _fallen;
-    //public static bool _standing;
+    public bool _standing;
 
     public Text _countCurrent;
+    public Image Strike;
     // Start is called before the first frame update
     void Start()
     {
         _score = 0;
+        Strike.enabled = false;
     }
 
     // Update is called once per frame
@@ -25,6 +27,15 @@ public class ScoreSystem : MonoBehaviour
             Destroy(this.gameObject);
         }
 
+        if(_standing == true)
+        {
+            Strike.enabled = false;
+        }
+
+        if(_score >= 10)
+        {
+            Strike.enabled = true;
+        }
 
         _countCurrent.text = _score.ToString();
     }
@@ -33,7 +44,7 @@ public class ScoreSystem : MonoBehaviour
     {
         if(other.name == "Pin")
         {
-            //_standing = true;
+            _standing = true;
         }
     }
     void OnTriggerExit(Collider other)
