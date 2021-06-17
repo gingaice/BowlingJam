@@ -85,37 +85,96 @@ public class BallPickerPick : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
+
             if (other.name == "BowlinBall")
             {
-                _spawnedIn1 = true;
+
+                    _spawnedIn1 = true;
+                
             }
 
             if (other.name == "Fridge")
             {
-                _spawnedIn2 = true;
+
+                    _spawnedIn2 = true;
+                
             }
 
             if (other.name == "ManLeg")
             {
-                _spawnedIn3 = true;
+
+                    _spawnedIn3 = true;
+                
             }
 
             if (other.name == "Toaster")
             {
-                _spawnedIn4 = true;
+
+                    _spawnedIn4 = true;
+                
             }
 
             if (other.name == "Fish")
             {
-                _spawnedIn5 = true;
+
+                    _spawnedIn5 = true;
+                
             }
 
             if (other.name == "FireEx")
             {
-                _spawnedIn6 = true;
+
+                    _spawnedIn1 = true;
+                
             }
         
+    }
+    private void OnTriggerExit(Collider other)
+    {
+
+        if (other.name == "BowlinBall")
+        {
+
+            _spawnedIn1 = false;
+
+        }
+
+        if (other.name == "Fridge")
+        {
+
+            _spawnedIn2 = false;
+
+        }
+
+        if (other.name == "ManLeg")
+        {
+
+            _spawnedIn3 = false;
+
+        }
+
+        if (other.name == "Toaster")
+        {
+
+            _spawnedIn4 = false;
+
+        }
+
+        if (other.name == "Fish")
+        {
+
+            _spawnedIn5 = false;
+
+        }
+
+        if (other.name == "FireEx")
+        {
+
+            _spawnedIn1 = false;
+
+        }
+
     }
 }

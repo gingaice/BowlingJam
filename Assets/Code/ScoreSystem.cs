@@ -16,6 +16,9 @@ public class ScoreSystem : MonoBehaviour
 
     public Image Strike;
 
+    public Transform under;
+    public Transform trig;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +31,7 @@ public class ScoreSystem : MonoBehaviour
     {
         if (_fallen == true)
         {
-            Destroy(this.gameObject);
+            trig.position = under.position;
         }
 
         if(_standing == true)
