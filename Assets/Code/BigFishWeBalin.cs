@@ -52,9 +52,9 @@ public class BigFishWeBalin : MonoBehaviour
 
         if(freezeAngles == true)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow) && num == 2)// when pressed lauches ball
+            if (Input.GetKeyDown(KeyCode.UpArrow) && num == 3)// when pressed lauches ball
             {
-                num = 3;
+                num = 5;
                 startPower = false;
                 Debug.Log("stop");
                 StopCoroutine(Timer());
@@ -62,9 +62,9 @@ public class BigFishWeBalin : MonoBehaviour
             }
         }
 
-        if(startPower == true && num != 5)
+        if(startPower == true && num == 2)
         {
-            num = 5;
+            num = 3;
             StartCoroutine(Timer());
             Debug.Log("start");
         }
@@ -79,14 +79,21 @@ public class BigFishWeBalin : MonoBehaviour
             shootPower -= Multiplier;
         }
 
+        if(shootPower <= 0)
+        {
+            down = false;
+        }
+
     }
 
     IEnumerator Timer()
     {
 
+        down = false;
         up = true;
         Debug.Log("up");
         yield return new WaitForSeconds(1);
+        up = false;
         down = true;
         Debug.Log("down");
         yield return new WaitForSeconds(1);
