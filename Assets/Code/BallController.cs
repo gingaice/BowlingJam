@@ -18,7 +18,7 @@ public class BallController : MonoBehaviour
 
     private Rigidbody m_rigidbody;
 
-    public int num;
+    public int num; 
 
     // Start is called before the first frame update
     void Start()
@@ -41,12 +41,15 @@ public class BallController : MonoBehaviour
 
         if (_isPressed == true)
         {
+            _isPressed = false;
+            Debug.Log("SATR");
             StartCoroutine(Power());
-            float _speedfling = Time.deltaTime * _speedHeld;
+            
+            //float _speedfling = Time.deltaTime * _speedHeld;
 
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             _isPressed = true;
 
@@ -101,13 +104,13 @@ public class BallController : MonoBehaviour
     }
     IEnumerator Power()
     {
-        _speedHeld += number * Time.deltaTime;
+        _speedHeld += number;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
 
-        _speedHeld -= number * Time.deltaTime;
+        _speedHeld -= number;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         StartCoroutine(Power());
     }
 
