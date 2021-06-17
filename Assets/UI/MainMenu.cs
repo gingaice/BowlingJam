@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
     }
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("Archie");
+        SceneManager.LoadScene("BlockOut");
     }
     public void LoadExit()
     {
