@@ -21,6 +21,7 @@ public class ScoreSystem : MonoBehaviour
     public Transform place;
     public Transform trig;
 
+    public Transform deleter;
     // Start is called before the first frame update
     void Start()
     {
@@ -95,7 +96,5 @@ public class ScoreSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         _reset = true;
-
-
     }
 }

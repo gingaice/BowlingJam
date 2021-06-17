@@ -8,9 +8,28 @@ using UnityEngine.UI;
 public class MenuMovement : MonoBehaviour
 {
     public Canvas Menu;
-    // Start is called before the first frame update
+
+    public Canvas LoadingScreen;
+
+    public bool LoadScene = false;
+    public Image Loading;
+    public Image SLoad;
+    public Image loadingNow;
+
     void Start()
     {
+        LoadingScreen.enabled = false;
+        Loading.enabled = false;
+        SLoad.enabled = false;
+        loadingNow.enabled = false;
+    }
+
+    public void loadGame()
+    {
+        Menu.enabled = false;
+        LoadingScreen.enabled = true;
+        StartCoroutine(LoadLevel1());
+        LoadScene = true;
     }
     private void Update()
     {
@@ -22,11 +41,7 @@ public class MenuMovement : MonoBehaviour
             Time.timeScale = 0;
         }
     }
-    public void loadGame()
-    {
-        SceneManager.LoadScene("Main");
-        Time.timeScale = 1;
-    }
+
     public void loadMainMenu()
     {
         SceneManager.LoadScene("StartMenu");
@@ -48,5 +63,17 @@ public class MenuMovement : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("the game has quit");
+    }
+
+    IEnumerator LoadLevel1()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Main");
+        SLoad.enabled = false;
+        Loading.enabled = true;
+        loadingNow.enabled = true;
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }

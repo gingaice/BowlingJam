@@ -8,6 +8,7 @@ TagManager:
   - ball
   - respawner
   - obj
+  - pin
   layers:
   - Default
   - TransparentFX
