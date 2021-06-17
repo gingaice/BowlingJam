@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8597336547411552590}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 8597336547476208703}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 8597336547758638997}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 8597336547802836103}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 8597336548113598241}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 8597336548277252994}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 8597336548512390473}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 8597336548548163510}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 8597336548883852744}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1072,7 +1072,7 @@ GameObject:
   - component: {fileID: 8597336549099733533}
   m_Layer: 0
   m_Name: Pin
-  m_TagString: Untagged
+  m_TagString: pin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

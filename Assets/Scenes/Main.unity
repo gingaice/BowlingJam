@@ -3842,7 +3842,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _reset: 0
+  _spawn: 0
   skadoosh: 0
+  pins: {fileID: 8597336548069652114, guid: ad648e49ac0e33e4d8ef6dc7db018c04, type: 3}
+  SpawnPoint: {x: 0, y: 0, z: 0}
 --- !u!65 &1197373457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4996,6 +4999,7 @@ MonoBehaviour:
   _Fish: {fileID: 659165419}
   _FireEx: {fileID: 4713768232678507394}
   spawn: {fileID: 1478633797}
+  under: {fileID: 1943732758}
   _spawnedIn1: 0
   _spawnedIn2: 0
   _spawnedIn3: 0

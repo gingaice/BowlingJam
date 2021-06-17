@@ -12,6 +12,7 @@ public class BallPickerPick : MonoBehaviour
     public Transform _FireEx;
 
     public Transform spawn;
+    public Transform under;
 
     public bool _spawnedIn1 = false;
     public bool _spawnedIn2 = false;
