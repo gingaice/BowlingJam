@@ -38,6 +38,19 @@ public class cameraChange : MonoBehaviour
             Cam1.enabled = false;
             Cam2.enabled = false;
             Cam3.enabled = true;
+
+            StartCoroutine(pog());
         }
+    }
+
+    IEnumerator pog()
+    {
+        Debug.Log("starting");
+        
+        yield return new WaitForSeconds(4f);
+        Cam1.enabled = true;
+        Cam2.enabled = false;
+        Cam3.enabled = false;
+        StopCoroutine(pog());
     }
 }

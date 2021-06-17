@@ -52,55 +52,80 @@ public class BallPickerPick : MonoBehaviour
         else
         {
             spinNo = false;
+            Ball.SetActive(false);
+            Fridge.SetActive(false);
+            Toaster.SetActive(false);
+            manLegs.SetActive(false);
+            Fish.SetActive(false);
+            Exting.SetActive(false);
         }
 
         if(spinNo == true)
         {
             if (_spawnedIn1 == true)
             {
-                Debug.Log("OwO");
                 //_BowlBall.position = spawn.position;
                 Ball.SetActive(true);
+                Fridge.SetActive(false);
+                Toaster.SetActive(false);
+                manLegs.SetActive(false);
+                Fish.SetActive(false);
+                Exting.SetActive(false);
                 _spawnedIn1 = false;
             }
 
             if (_spawnedIn2 == true)
             {
-                Debug.Log("OwO");
-                //_Fridge.position = spawn.position;
-                Ball.SetActive(true);
+                Ball.SetActive(false);
+                Fridge.SetActive(true);
+                Toaster.SetActive(false);
+                manLegs.SetActive(false);
+                Fish.SetActive(false);
+                Exting.SetActive(false);
                 _spawnedIn2 = false;
             }
 
             if (_spawnedIn3 == true)
             {
-                Debug.Log("OwO");
-                //_ManLegs.position = spawn.position;
-                Ball.SetActive(true);
+                Ball.SetActive(false);
+                Fridge.SetActive(false);
+                Toaster.SetActive(false);
+                manLegs.SetActive(true);
+                Fish.SetActive(false);
+                Exting.SetActive(false);
                 _spawnedIn3 = false;
             }
 
             if (_spawnedIn4 == true)
             {
-                Debug.Log("OwO");
-                //_Toaster.position = spawn.position;
-                Ball.SetActive(true);
+                Ball.SetActive(false);
+                Fridge.SetActive(false);
+                Toaster.SetActive(true);
+                manLegs.SetActive(false);
+                Fish.SetActive(false);
+                Exting.SetActive(false);
                 _spawnedIn4 = false;
             }
 
             if (_spawnedIn5 == true)
             {
-                Debug.Log("OwO");
-                //_Fish.position = spawn.position;
-                Ball.SetActive(true);
+                Ball.SetActive(false);
+                Fridge.SetActive(false);
+                Toaster.SetActive(false);
+                manLegs.SetActive(false);
+                Fish.SetActive(true);
+                Exting.SetActive(false);
                 _spawnedIn5 = false;
             }
 
             if (_spawnedIn6 == true)
             {
-                Debug.Log("OwO");
-                //_FireEx.position = spawn.position;
-                Ball.SetActive(true);
+                Ball.SetActive(false);
+                Fridge.SetActive(false);
+                Toaster.SetActive(false);
+                manLegs.SetActive(false);
+                Fish.SetActive(false);
+                Exting.SetActive(true);
                 _spawnedIn6 = false;
             }
         }
@@ -193,7 +218,7 @@ public class BallPickerPick : MonoBehaviour
         if (other.name == "FireEx")
         {
 
-            _spawnedIn1 = false;
+            _spawnedIn6 = false;
 
         }
 
