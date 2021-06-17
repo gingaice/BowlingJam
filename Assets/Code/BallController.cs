@@ -18,9 +18,7 @@ public class BallController : MonoBehaviour
 
     private Rigidbody m_rigidbody;
 
-    public int num;
-
-    public bool 
+    public int num; 
 
     // Start is called before the first frame update
     void Start()
