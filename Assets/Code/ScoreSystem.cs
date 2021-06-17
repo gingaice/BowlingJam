@@ -20,8 +20,6 @@ public class ScoreSystem : MonoBehaviour
     public Transform under;
     public Transform place;
     public Transform trig;
-
-    public Transform deleter;
     // Start is called before the first frame update
     void Start()
     {
