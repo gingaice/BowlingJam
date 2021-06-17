@@ -7,8 +7,10 @@ public class BigFishWeBalin : MonoBehaviour
 
     public Rigidbody m_rigidbody;
 
-    public float shootPower;
+    static public float shootPower;
     public float Multiplier;
+
+    public float showShoot;
 
     public int num;
 
@@ -27,21 +29,35 @@ public class BigFishWeBalin : MonoBehaviour
         m_rigidbody = GetComponent<Rigidbody>();
 
         Multiplier = 31;
+
+        num = 0;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        showShoot = shootPower;
+
+
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             freezeAngles = true;
             startPower = true;
+            num = 1;
+        }
+
+        if (freezeAngles == true && Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            num = 2;
         }
 
         if(freezeAngles == true)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))// when pressed lauches ball
+            if (Input.GetKeyDown(KeyCode.UpArrow) && num == 2)// when pressed lauches ball
             {
+                num = 3;
                 startPower = false;
                 StopCoroutine(Timer());
                 m_rigidbody.velocity = shootPower * transform.forward;
@@ -51,6 +67,7 @@ public class BigFishWeBalin : MonoBehaviour
         if(startPower == true)
         {
             StartCoroutine(Timer());
+            Debug.Log("start");
         }
 
         if(up == true)
@@ -68,9 +85,9 @@ public class BigFishWeBalin : MonoBehaviour
     IEnumerator Timer()
     {
         up = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         down = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         StartCoroutine(Timer());
     }
 }

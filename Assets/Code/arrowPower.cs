@@ -19,7 +19,7 @@ public class arrowPower : MonoBehaviour
     public Sprite g0;
 
 
-    public int Power;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,60 +34,60 @@ public class arrowPower : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-            Power += 25;
+            BigFishWeBalin.shootPower += 25;
         }
 
-        if(Power > 31)
+        if(BigFishWeBalin.shootPower > 31)
         {
-            if (Power < 60)
+            if (BigFishWeBalin.shootPower < 60)
             {
                 Arrow.sprite = g1;
             }
         }
 
-        if (Power > 61)
+        if (BigFishWeBalin.shootPower > 61)
         {
-            if (Power < 90)
+            if (BigFishWeBalin.shootPower < 90)
             {
                 Arrow.sprite = g2;
             }
         }
 
-        if (Power > 91)
+        if (BigFishWeBalin.shootPower > 91)
         {
-            if (Power < 120)
+            if (BigFishWeBalin.shootPower < 120)
             {
                 Arrow.sprite = g3;
             }
         }
 
-        if (Power > 121)
+        if (BigFishWeBalin.shootPower > 121)
         {
-            if (Power < 150)
+            if (BigFishWeBalin.shootPower < 150)
             {
                 Arrow.sprite = g4;
             }
         }
 
-        if (Power > 151)
+        if (BigFishWeBalin.shootPower > 151)
         {
-            if (Power < 180)
+            if (BigFishWeBalin.shootPower < 180)
             {
                 Arrow.sprite = g5;
             }
         }
 
-        if (Power > 180)
+        if (BigFishWeBalin.shootPower > 180)
         {
-            if (Power < 210)
+            if (BigFishWeBalin.shootPower < 210)
             {
                 Arrow.sprite = g6;
             }
         }
 
-        if (Power > 211)
+        if (BigFishWeBalin.shootPower > 211)
         {
-            if (Power < 240)
+            if (BigFishWeBalin.shootPower < 240)
             {
                 Arrow.sprite = g7;
             }
