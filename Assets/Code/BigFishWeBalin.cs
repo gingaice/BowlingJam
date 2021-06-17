@@ -91,11 +91,11 @@ public class BigFishWeBalin : MonoBehaviour
         down = false;
         up = true;
         Debug.Log("up");
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         up = false;
         down = true;
         Debug.Log("down");
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         StartCoroutine(Timer());
     }
 }

@@ -2994,13 +2994,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284709404}
-  m_LocalRotation: {x: 0.4266694, y: -0, z: -0, w: 0.9044077}
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
   m_LocalPosition: {x: -0.012296254, y: 0.53560114, z: 1.6706598}
   m_LocalScale: {x: 0.091429405, y: 0.091429405, z: 0.091429435}
   m_Children: []
   m_Father: {fileID: 1250331412}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50.513, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
 --- !u!212 &1284709406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4173,7 +4173,7 @@ GameObject:
   - component: {fileID: 1846759260}
   - component: {fileID: 1846759259}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4189,7 +4189,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 85c5933461d98c54c8c4f7f6b51c88ff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bce7afa9c9c98c14ebac1d067badf67c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
