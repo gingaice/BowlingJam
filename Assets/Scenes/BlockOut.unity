@@ -432,12 +432,7 @@ MonoBehaviour:
   ball: {fileID: 221943950}
   Ball: {fileID: 0}
   spawn: {fileID: 0}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!23 &221943954
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2503,9 +2498,9 @@ GameObject:
   - component: {fileID: 1250331411}
   - component: {fileID: 1250331410}
   - component: {fileID: 1250331409}
-  - component: {fileID: 1250331408}
   - component: {fileID: 1250331407}
   - component: {fileID: 1250331413}
+  - component: {fileID: 1250331408}
   m_Layer: 0
   m_Name: BowlBall
   m_TagString: Untagged
@@ -2538,19 +2533,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1250331406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98d81f04bc92dfe468168233726a696e, type: 3}
+  m_Script: {fileID: 11500000, guid: 919cfe98876777d42aadf52fa2597472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
-  ball: {fileID: 1250331406}
-  Ball: {fileID: 0}
-  spawn: {fileID: 0}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
-  zero: 0
+  m_rigidbody: {fileID: 1250331407}
+  Multiplier: 0
+  showShoot: 0
   num: 0
+  freezeAngles: 0
+  startPower: 0
+  up: 0
+  down: 0
 --- !u!135 &1250331409
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3080,7 +3073,6 @@ MonoBehaviour:
   g6: {fileID: 21300000, guid: de625135efddf9044abcaea8f346af7c, type: 3}
   g7: {fileID: 21300000, guid: a6974c6e3bafcda4ebaeeaea9c92bc3a, type: 3}
   g0: {fileID: 21300000, guid: c091f2d0af20c794faca42f3d075cde3, type: 3}
-  Power: 0
 --- !u!1 &1329164891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4489,12 +4481,7 @@ MonoBehaviour:
   ball: {fileID: 1858803575}
   Ball: {fileID: 0}
   spawn: {fileID: 0}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!114 &1858803582
 MonoBehaviour:
   m_ObjectHideFlags: 0
