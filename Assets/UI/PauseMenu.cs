@@ -7,17 +7,17 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    public Canvas Menu;
+    public Canvas Menuy;
     // Start is called before the first frame update
     void Start()
     {
-        Menu.enabled = false;
+        Menuy.enabled = false;
     }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Menu.enabled = true;
+            Menuy.enabled = true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             Time.timeScale = 0;
@@ -25,12 +25,12 @@ public class PauseMenu : MonoBehaviour
     }
     public void loadMainMenu()
     {
-        SceneManager.LoadScene("StartMenu");
+        SceneManager.LoadScene("Main");
         Time.timeScale = 1;
     }
     public void loadResume()
     {
-        Menu.enabled = false;
+        Menuy.enabled = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         Time.timeScale = 1;

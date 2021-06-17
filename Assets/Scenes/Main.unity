@@ -2457,12 +2457,7 @@ MonoBehaviour:
   ball: {fileID: 659165413}
   Ball: {fileID: 659165419}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 169
   zero: 0
-  num: 0
 --- !u!23 &659165417
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4864,12 +4859,7 @@ MonoBehaviour:
   ball: {fileID: 1539540070}
   Ball: {fileID: 1539540071}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 169
   zero: 0
-  num: 0
 --- !u!1 &1546069333
 GameObject:
   m_ObjectHideFlags: 0
@@ -5887,12 +5877,7 @@ MonoBehaviour:
   ball: {fileID: 1794935230}
   Ball: {fileID: 1794935235}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!114 &1794935237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7481,10 +7466,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 111437102943691397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5229ab1b829cd714d98056e083ad52ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 9682fe1989ba3c3449e157c0364c2b4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu: {fileID: 111437102985058256}
+  Menuy: {fileID: 111437102985058256}
 --- !u!224 &111437102943691396
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7633,10 +7618,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 111437102985058263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5229ab1b829cd714d98056e083ad52ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 9682fe1989ba3c3449e157c0364c2b4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu: {fileID: 111437102985058256}
+  Menuy: {fileID: 111437102985058256}
 --- !u!224 &111437102985058259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8006,12 +7991,7 @@ MonoBehaviour:
   ball: {fileID: 579377698951880625}
   Ball: {fileID: 3437918921378102325}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!1 &640355476480131484
 GameObject:
   m_ObjectHideFlags: 0
@@ -8252,12 +8232,7 @@ MonoBehaviour:
   ball: {fileID: 1790618222087967807}
   Ball: {fileID: 3877043430579181107}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 35
   zero: 0
-  num: 0
 --- !u!64 &1790618222087967810
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8339,12 +8314,7 @@ MonoBehaviour:
   ball: {fileID: 1949069841937294108}
   Ball: {fileID: 0}
   spawn: {fileID: 0}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!23 &2276044731610571912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8706,12 +8676,7 @@ MonoBehaviour:
   ball: {fileID: 5341686522529880376}
   Ball: {fileID: 4713768232678507394}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 169
   zero: 0
-  num: 0
 --- !u!1 &5682578166936673367
 GameObject:
   m_ObjectHideFlags: 0
@@ -8765,12 +8730,7 @@ MonoBehaviour:
   ball: {fileID: 5682578166936673367}
   Ball: {fileID: 2332597078861711462}
   spawn: {fileID: 1478633797}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 35
   zero: 0
-  num: 0
 --- !u!64 &5682578166936673370
 MeshCollider:
   m_ObjectHideFlags: 0
