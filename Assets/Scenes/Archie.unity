@@ -539,12 +539,7 @@ MonoBehaviour:
   ball: {fileID: 49781505}
   Ball: {fileID: 49781506}
   spawn: {fileID: 124466250}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 169
   zero: 0
-  num: 0
 --- !u!64 &49781509
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1962,12 +1957,7 @@ MonoBehaviour:
   ball: {fileID: 417209562}
   Ball: {fileID: 417209563}
   spawn: {fileID: 124466250}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 35
   zero: 0
-  num: 0
 --- !u!64 &417209566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2593,7 +2583,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &499150458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3296,7 +3288,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &664578066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4598,7 +4592,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &907802449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5501,12 +5497,7 @@ MonoBehaviour:
   ball: {fileID: 1123753260}
   Ball: {fileID: 1123753261}
   spawn: {fileID: 124466250}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!114 &1123753264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5777,7 +5768,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140742746}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &1140742749
 Transform:
   m_ObjectHideFlags: 0
@@ -6181,12 +6172,7 @@ MonoBehaviour:
   ball: {fileID: 1200317747}
   Ball: {fileID: 0}
   spawn: {fileID: 0}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!23 &1200317752
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6394,7 +6380,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &1240276634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7277,6 +7265,7 @@ MonoBehaviour:
   _Fish: {fileID: 1252424938}
   _FireEx: {fileID: 1607801357}
   spawn: {fileID: 124466250}
+  under: {fileID: 0}
   _spawnedIn1: 0
   _spawnedIn2: 0
   _spawnedIn3: 0
@@ -7523,7 +7512,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &1338282680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8079,7 +8070,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &1407341810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9071,12 +9064,7 @@ MonoBehaviour:
   ball: {fileID: 1607801356}
   Ball: {fileID: 1607801357}
   spawn: {fileID: 124466250}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 169
   zero: 0
-  num: 0
 --- !u!23 &1607801361
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9180,7 +9168,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &1635849850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9618,7 +9608,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &1809964504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9802,7 +9794,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860643357}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1860643359
 Camera:
   m_ObjectHideFlags: 0
@@ -10221,12 +10213,7 @@ MonoBehaviour:
   ball: {fileID: 1982211346}
   Ball: {fileID: 1982211347}
   spawn: {fileID: 124466250}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 35
   zero: 0
-  num: 0
 --- !u!64 &1982211350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10751,7 +10738,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &2072259862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10894,12 +10883,7 @@ MonoBehaviour:
   ball: {fileID: 2083692397}
   Ball: {fileID: 2083692398}
   spawn: {fileID: 124466250}
-  _speedfling: 0
-  _isPressed: 0
-  _speedHeld: 0
-  number: 15
   zero: 0
-  num: 0
 --- !u!23 &2083692402
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11311,7 +11295,9 @@ MonoBehaviour:
   _countCurrent: {fileID: 291362513}
   Strike: {fileID: 617016995}
   under: {fileID: 0}
+  place: {fileID: 0}
   trig: {fileID: 0}
+  deleter: {fileID: 0}
 --- !u!65 &2137013445
 BoxCollider:
   m_ObjectHideFlags: 0
