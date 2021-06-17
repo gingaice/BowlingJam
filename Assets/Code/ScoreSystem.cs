@@ -74,14 +74,14 @@ public class ScoreSystem : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.name == "Pin")
+        if (other.CompareTag("pin"))
         {
             _standing = true;
         }
     }
     void OnTriggerExit(Collider other)
     {
-        if(other.name == "Pin")
+        if (other.CompareTag("pin"))
         {
             _fallen = true;
 
