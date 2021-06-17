@@ -67,7 +67,7 @@ public class MenuMovement : MonoBehaviour
 
     IEnumerator LoadLevel1()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Main");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Archie");
         SLoad.enabled = false;
         Loading.enabled = true;
         loadingNow.enabled = true;

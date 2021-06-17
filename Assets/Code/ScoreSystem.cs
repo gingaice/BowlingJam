@@ -25,6 +25,7 @@ public class ScoreSystem : MonoBehaviour
     {
         _score = 0;
         Strike.enabled = false;
+        StartCoroutine(SecondTimer());
     }
 
     // Update is called once per frame
@@ -94,5 +95,12 @@ public class ScoreSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         _reset = true;
+    }
+
+    IEnumerator SecondTimer()
+    {
+        yield return new WaitForSeconds(17);
+        _score = 0;
+        StartCoroutine(SecondTimer());
     }
 }

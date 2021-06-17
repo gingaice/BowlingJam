@@ -55,7 +55,7 @@ public class PinReplacement : MonoBehaviour
 
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(15);
         _reset = true;
         yield return new WaitForSeconds(2);
         _spawn = true;

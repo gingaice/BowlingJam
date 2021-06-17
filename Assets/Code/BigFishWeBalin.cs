@@ -48,8 +48,7 @@ public class BigFishWeBalin : MonoBehaviour
             num = 2;
         }
 
-
-
+        
         if(freezeAngles == true)
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) && num == 3)// when pressed lauches ball
