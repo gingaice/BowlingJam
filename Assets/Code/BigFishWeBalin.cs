@@ -28,7 +28,7 @@ public class BigFishWeBalin : MonoBehaviour
 
         m_rigidbody = GetComponent<Rigidbody>();
 
-        Multiplier = 1;
+        Multiplier = 0.7f;
 
         num = 1;
 

@@ -15,11 +15,11 @@ D:/mikey babee/BowlingJam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55526
+61232
 Successfully changed project path to: D:/mikey babee/BowlingJam
 D:/mikey babee/BowlingJam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,31 +35,31 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001237 seconds.
+Registered in 0.001135 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.886 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000805 seconds.
+Registered in 0.000825 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
+- Completed reload, in  0.790 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -67,520 +67,63 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 second
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.7 MB.
+System memory in use before: 57.8 MB.
+System memory in use after: 57.8 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1573.
-Total: 1.650600 ms (FindLiveObjects: 0.140800 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.409900 ms  DeleteObjects: 0.053100 ms)
+Total: 1.414300 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.191600 ms  DeleteObjects: 0.052300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/MagaPin/MagaPin_Albedo.tga
-  artifactKey: Guid(38079fdd091ce324da36eb94a698d903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin_Albedo.tga using Guid(38079fdd091ce324da36eb94a698d903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da84b54149da11d732230300147a550') in 0.063627 seconds
-  Import took 0.066627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Assets/MagaPin/MagaPin_Emission.tga
-  artifactKey: Guid(f7f0356b2eedcb4439b790362b8e895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin_Emission.tga using Guid(f7f0356b2eedcb4439b790362b8e895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d98b9cae50fb578c5c60c41e0a0c07d') in 0.016053 seconds
-  Import took 0.018063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Assets/MagaPin/MagaPin_Occlusion.tga
-  artifactKey: Guid(b10041b4eb4b67f469aa0e1198861b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin_Occlusion.tga using Guid(b10041b4eb4b67f469aa0e1198861b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843d67fec74679db7652db998770e750') in 0.014334 seconds
-  Import took 0.016540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Assets/MagaPin/MagaPin_Normal.tga
-  artifactKey: Guid(0a09c3f80f329414cb4ed35615995e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin_Normal.tga using Guid(0a09c3f80f329414cb4ed35615995e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be87e73796a9a29149244cad4e96d1ed') in 0.010316 seconds
-  Import took 0.012263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Assets/MagaPin/MagaPin_Specular.tga
-  artifactKey: Guid(9d2a7c22da8e44946b2b5beae6073c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin_Specular.tga using Guid(9d2a7c22da8e44946b2b5beae6073c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1ade87c63862bb7da3ef1c9e141e0a') in 0.012703 seconds
-  Import took 0.014375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Assets/MagaPin/MagaPin_Height.tga
-  artifactKey: Guid(c8b3309122941034f86798c6e315ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin_Height.tga using Guid(c8b3309122941034f86798c6e315ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4597756c999225148bcec9c143404f33') in 0.009757 seconds
-  Import took 0.011403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Assets/MagaPin/MagaPin.obj
-  artifactKey: Guid(d4cfd649eb1507246b3d50d2908555e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/MagaPin/MagaPin.obj using Guid(d4cfd649eb1507246b3d50d2908555e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887828e8489abfba978794367ed6e967') in 0.088739 seconds
-  Import took 0.090405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.666202 seconds.
-  path: Assets/Assets/GolfPin/GolfTing.obj
-  artifactKey: Guid(478f82e07c1947e4c879ce0a7e492278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing.obj using Guid(478f82e07c1947e4c879ce0a7e492278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acd388a2f1de590318a5b00335fe769') in 0.021575 seconds
-  Import took 0.024231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Assets/GolfPin/GolfTing_Emission.tga
-  artifactKey: Guid(403d5ba5823ba1e41b354a25d2b66e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing_Emission.tga using Guid(403d5ba5823ba1e41b354a25d2b66e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b905c94c45e179608df5be81d0c2835') in 0.010762 seconds
-  Import took 0.013084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Assets/GolfPin/GolfTing_Occlusion.tga
-  artifactKey: Guid(671a4630a5b1d384da2d277c48428a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing_Occlusion.tga using Guid(671a4630a5b1d384da2d277c48428a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e42114d2d5418bd8a8da38cb16883') in 0.010532 seconds
-  Import took 0.013258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Assets/GolfPin/GolfTing_Metallic.tga
-  artifactKey: Guid(dc776f7eb1be42c4dabd8b8e017ed266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing_Metallic.tga using Guid(dc776f7eb1be42c4dabd8b8e017ed266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632e21d87aa1bd4615de000019cd196f') in 0.023518 seconds
-  Import took 0.025432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Assets/GolfPin/GolfTing_Albedo.tga
-  artifactKey: Guid(83f1552dd2d771047a466962e76dd1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing_Albedo.tga using Guid(83f1552dd2d771047a466962e76dd1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c1126468b7cb25f299835e65db7555') in 0.012710 seconds
-  Import took 0.014757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Assets/GolfPin/GolfTing_Normal.tga
-  artifactKey: Guid(63bd2f0826560774e98271014ef1819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing_Normal.tga using Guid(63bd2f0826560774e98271014ef1819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d38edb3ce455a7574f4b520980d861') in 0.009823 seconds
-  Import took 0.011968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Assets/GolfPin/GolfTing_Height.tga
-  artifactKey: Guid(c344007ab603a734686938b329859375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/GolfPin/GolfTing_Height.tga using Guid(c344007ab603a734686938b329859375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f441225ee4718ec205621d7613232a') in 0.010582 seconds
-  Import took 0.012500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.202205 seconds.
-  path: Assets/Assets/CultPin/CultPinTXT.obj
-  artifactKey: Guid(25f5535e42c5b3f48920226a28cf4a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/CultPin/CultPinTXT.obj using Guid(25f5535e42c5b3f48920226a28cf4a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676ef39c2addacaf5261dc001c685c4a') in 0.022835 seconds
-  Import took 0.024912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Assets/CultPin/New Material.mat
-  artifactKey: Guid(09675917d22eaba448d76364feabc6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/CultPin/New Material.mat using Guid(09675917d22eaba448d76364feabc6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593807b51f4f0461e37064a9440c1cbe') in 0.010917 seconds
-  Import took 0.012615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.323214 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured.obj
-  artifactKey: Guid(490110ca4dcf20f459154dfcfd6de924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured.obj using Guid(490110ca4dcf20f459154dfcfd6de924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ce4f2f6e655c01670f966664ec92a9') in 0.027886 seconds
-  Import took 0.029657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured_Metallic.tga
-  artifactKey: Guid(6750971784eb24345b5a47c8f5c0cb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured_Metallic.tga using Guid(6750971784eb24345b5a47c8f5c0cb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63c66ac375681cca587833638de59f3') in 0.012894 seconds
-  Import took 0.014912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured_Emission.tga
-  artifactKey: Guid(09d778540cdd55a4ebb870e536c79a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured_Emission.tga using Guid(09d778540cdd55a4ebb870e536c79a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31ada531530fed2ca7ab7eb056af92b') in 0.010573 seconds
-  Import took 0.012648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured_Occlusion.tga
-  artifactKey: Guid(d5c33c5e37f00184ea08485ec705e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured_Occlusion.tga using Guid(d5c33c5e37f00184ea08485ec705e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd240117a4f7ea954682274f8b378cff') in 0.024520 seconds
-  Import took 0.026264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured_Albedo.tga
-  artifactKey: Guid(270e2ed0bfdbe1549b645e5d1b1abdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured_Albedo.tga using Guid(270e2ed0bfdbe1549b645e5d1b1abdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ff6620b32c5b2c2b078887ed32d35a') in 0.013906 seconds
-  Import took 0.015926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured_Normal.tga
-  artifactKey: Guid(eaedf0f3e7e2f364ab3f0af275c1c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured_Normal.tga using Guid(eaedf0f3e7e2f364ab3f0af275c1c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be6be1dbcfbb5843cfdb141a2092960') in 0.010096 seconds
-  Import took 0.011847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Assets/RubberDucky/RubberDuckyPinTextured_Height.tga
-  artifactKey: Guid(ea853e49ba9b78c42afe86c178c9509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/RubberDucky/RubberDuckyPinTextured_Height.tga using Guid(ea853e49ba9b78c42afe86c178c9509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e076726ad4deed1ac08953c9637a5be') in 0.008486 seconds
-  Import took 0.010437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.123754 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured.obj
-  artifactKey: Guid(595d5b83207e6294385bb0497aa3c2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured.obj using Guid(595d5b83207e6294385bb0497aa3c2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec237750c505c958e4a6b90d38d2375') in 0.017635 seconds
-  Import took 0.019316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured_Emission.tga
-  artifactKey: Guid(d83539c21d5e26444a2ef0e06d39f99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured_Emission.tga using Guid(d83539c21d5e26444a2ef0e06d39f99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40857dc4e638037fa63552d703294f25') in 0.009983 seconds
-  Import took 0.011932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured_Normal.tga
-  artifactKey: Guid(39efe81212011514db787229c22d1c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured_Normal.tga using Guid(39efe81212011514db787229c22d1c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1f4a13c92f22bb82b018a9f30e6392') in 0.013920 seconds
-  Import took 0.016227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured_Metallic.tga
-  artifactKey: Guid(3d9285d9426f8fa4886901acffd5954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured_Metallic.tga using Guid(3d9285d9426f8fa4886901acffd5954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51af6aa4e1c4d2c15b0f7670ca4536d8') in 0.012620 seconds
-  Import took 0.015124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured_Occlusion.tga
-  artifactKey: Guid(539288c3ea157514bb6745a7265ce260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured_Occlusion.tga using Guid(539288c3ea157514bb6745a7265ce260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0885d94ea6b6ff584199d164eaac805d') in 0.009711 seconds
-  Import took 0.011909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured_Albedo.tga
-  artifactKey: Guid(f04087d73b05a754fae730f6583ca5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured_Albedo.tga using Guid(f04087d73b05a754fae730f6583ca5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e41e301f6abcc4b0f9359125ae952b2') in 0.012867 seconds
-  Import took 0.015344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Assets/Rocketship/RocketshipTextured_Height.tga
-  artifactKey: Guid(ec00511d882b8ef47ab7ea734969003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Rocketship/RocketshipTextured_Height.tga using Guid(ec00511d882b8ef47ab7ea734969003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796e0e261e673541f01349121e080eb9') in 0.010131 seconds
-  Import took 0.012122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.472701 seconds.
-  path: Assets/Assets/PUNKPIN/Punk Pin.obj
-  artifactKey: Guid(a0ea5f69e1f5ae14b927dc5990cf2afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/Punk Pin.obj using Guid(a0ea5f69e1f5ae14b927dc5990cf2afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cd99f6d3d05f70a68af45af357cbee') in 0.026064 seconds
-  Import took 0.028051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex_Normal.tga
-  artifactKey: Guid(8d8466c264217ef4596ea7ae884d4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex_Normal.tga using Guid(8d8466c264217ef4596ea7ae884d4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f0ad45842210d50c278dbd9a8083ed') in 0.009765 seconds
-  Import took 0.012971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002109 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex_Emission.tga
-  artifactKey: Guid(6d53fea3dce73e64687f1897219992e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex_Emission.tga using Guid(6d53fea3dce73e64687f1897219992e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d5a49015465fd519f042f312d89db1') in 0.019688 seconds
-  Import took 0.023699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex_Height.tga
-  artifactKey: Guid(982dd4bdd08061d48924b4bd3a53f342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex_Height.tga using Guid(982dd4bdd08061d48924b4bd3a53f342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2957e1988001924e2938c995fc2fce41') in 0.009974 seconds
-  Import took 0.011933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex_Occlusion.tga
-  artifactKey: Guid(bf119d393999add42abf1d16abf6e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex_Occlusion.tga using Guid(bf119d393999add42abf1d16abf6e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4affe4d9a282c3f4e178e1640cbfc871') in 0.009494 seconds
-  Import took 0.011338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex_Albedo.tga
-  artifactKey: Guid(816256551488504419bbcff2634ec0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex_Albedo.tga using Guid(816256551488504419bbcff2634ec0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772244e0ab3e6beaa1ca0edb13bf9bf6') in 0.009739 seconds
-  Import took 0.011583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex.obj
-  artifactKey: Guid(b638020c3e6a17e4ab67f5421ebfffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex.obj using Guid(b638020c3e6a17e4ab67f5421ebfffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa75c511b4e9b537daf11f9f896f4a1') in 0.026979 seconds
-  Import took 0.028880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Assets/PUNKPIN/PunkPinTex_Specular.tga
-  artifactKey: Guid(0711a766a2f35834b8b04814f3e5645a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PUNKPIN/PunkPinTex_Specular.tga using Guid(0711a766a2f35834b8b04814f3e5645a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c88c5fd46e2618043fcfcbdb5db961') in 0.011228 seconds
-  Import took 0.013325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.151411 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk.obj
-  artifactKey: Guid(7930642f4fc994b479e06a7ea7db36c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk.obj using Guid(7930642f4fc994b479e06a7ea7db36c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dce1a32e6f88f9ae79a889d7667994e') in 0.024556 seconds
-  Import took 0.026347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Emission.tga
-  artifactKey: Guid(2e24fd1437820ad499c12865cc3c1e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Emission.tga using Guid(2e24fd1437820ad499c12865cc3c1e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f29fd181fb7c526c37c9c525fddda1b') in 0.010568 seconds
-  Import took 0.012287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Normal.tga
-  artifactKey: Guid(9056b92d3d1ddc445a625d43b99cdd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Normal.tga using Guid(9056b92d3d1ddc445a625d43b99cdd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273a7c657591ebe5e0bf5fda10c87dea') in 0.010473 seconds
-  Import took 0.012461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Albedo.tga
-  artifactKey: Guid(8c38b9046742b214eb906d5952d98928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Albedo.tga using Guid(8c38b9046742b214eb906d5952d98928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b628c498a39e775a74e1f81b3f7be482') in 0.026893 seconds
-  Import took 0.028979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Height.tga
-  artifactKey: Guid(0d7b8f7a3063a864b8dce1b424fbe655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Height.tga using Guid(0d7b8f7a3063a864b8dce1b424fbe655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116d2a136520ea289d95695812855462') in 0.013249 seconds
-  Import took 0.014887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Albedo.tga
-  artifactKey: Guid(8c38b9046742b214eb906d5952d98928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Albedo.tga using Guid(8c38b9046742b214eb906d5952d98928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b628c498a39e775a74e1f81b3f7be482') in 0.011033 seconds
-  Import took 0.013218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Occlusion.tga
-  artifactKey: Guid(017155606e6721e479d2ae30e25ead26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Occlusion.tga using Guid(017155606e6721e479d2ae30e25ead26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5477ded2c15976e975e6e149a81fde') in 0.009119 seconds
-  Import took 0.011007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Metallic.tga
-  artifactKey: Guid(a4f8a816f1ee1344ab62cac7043e5360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ChockyMilk/ChockyMilk_lambert1_Metallic.tga using Guid(a4f8a816f1ee1344ab62cac7043e5360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030459aa505c208bcfa1bdf45a41bc4b') in 0.011268 seconds
-  Import took 0.013476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.322800 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured.obj
-  artifactKey: Guid(a598239692068f04bbad47c37dde602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured.obj using Guid(a598239692068f04bbad47c37dde602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c333b792633342c9b91eb4095933d27') in 0.016769 seconds
-  Import took 0.018518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured_Occlusion.tga
-  artifactKey: Guid(e2145cf41c7d832469d80f245686a771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured_Occlusion.tga using Guid(e2145cf41c7d832469d80f245686a771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d35bad0f8bcbcd0cacabb9faceacf9c') in 0.009845 seconds
-  Import took 0.011789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured_Metallic.tga
-  artifactKey: Guid(3a49df0ba0c7d12428f5803e69bd922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured_Metallic.tga using Guid(3a49df0ba0c7d12428f5803e69bd922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff078fb0ddafb44c24642d4bf6ab90cc') in 0.012533 seconds
-  Import took 0.015185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured_Normal.tga
-  artifactKey: Guid(1a628434ee441d44cb7728199ed46b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured_Normal.tga using Guid(1a628434ee441d44cb7728199ed46b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49942e624908ef2491243ce20030bbef') in 0.010424 seconds
-  Import took 0.012637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured_Albedo.tga
-  artifactKey: Guid(911e2247d3c313e46b408db50413ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured_Albedo.tga using Guid(911e2247d3c313e46b408db50413ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052ec115c38919e556119dbdc72d967e') in 0.012843 seconds
-  Import took 0.014926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured_Height.tga
-  artifactKey: Guid(f3bddd735d0384b4786ce6be780b124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured_Height.tga using Guid(f3bddd735d0384b4786ce6be780b124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ba4cbcfb753433e4f78c14b1625851') in 0.010615 seconds
-  Import took 0.012375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Assets/BikerPin/BikerTextured_Emission.tga
-  artifactKey: Guid(6d774c0b205337e4dbbf214e00fcebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BikerPin/BikerTextured_Emission.tga using Guid(6d774c0b205337e4dbbf214e00fcebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d20a32b04276ed43f2b5070db10a36') in 0.009587 seconds
-  Import took 0.011412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.909686 seconds.
-  path: Assets/UI/Paused.png
-  artifactKey: Guid(60010609e9dd5e2458ad0731f8bf5b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Paused.png using Guid(60010609e9dd5e2458ad0731f8bf5b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fe5ed6264e7c1ac951f46386aa3c3e') in 0.038715 seconds
-  Import took 0.040591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/UI/QuitButton.png
-  artifactKey: Guid(3cee5b58e3e755348aabcbdd739fb502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/QuitButton.png using Guid(3cee5b58e3e755348aabcbdd739fb502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8df2c8dfaa68c4ea042968423d6ed2a') in 0.010732 seconds
-  Import took 0.012441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/UI/ResumeButton.png
-  artifactKey: Guid(200564b212210ef45a4af32edb2d6173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/ResumeButton.png using Guid(200564b212210ef45a4af32edb2d6173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c06bff271c71c04536cb7cced060488') in 0.023956 seconds
-  Import took 0.025982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.429898 seconds.
-  path: Assets/Scenes/PauseMenu.prefab
-  artifactKey: Guid(af8cdb616b484424885a6b8d6e60d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PauseMenu.prefab using Guid(af8cdb616b484424885a6b8d6e60d1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8815d8cbe4875d82b966e6f20e582bb7') in 0.019836 seconds
-  Import took 0.021673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.669156 seconds.
-  path: Assets/Scenes/Archie.unity
-  artifactKey: Guid(01324d5ed3346c6478c203448cd34faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Archie.unity using Guid(01324d5ed3346c6478c203448cd34faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e7a89c4060959956b0be938799ebbc') in 0.005484 seconds
-  Import took 0.007582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000775 seconds.
-  path: Assets/Scenes/Archie.unity
-  artifactKey: Guid(01324d5ed3346c6478c203448cd34faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Archie.unity using Guid(01324d5ed3346c6478c203448cd34faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e7a89c4060959956b0be938799ebbc') in 0.004251 seconds
-  Import took 0.006377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.966348 seconds.
-  path: Assets/Scenes/BlockOut.unity
-  artifactKey: Guid(c33c355a9fa298d44950563cfd4566ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BlockOut.unity using Guid(c33c355a9fa298d44950563cfd4566ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29abe4da03fc627956c4e05da8ba8a4f') in 0.005672 seconds
-  Import took 0.007696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Scenes/BlockOut.unity
-  artifactKey: Guid(c33c355a9fa298d44950563cfd4566ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BlockOut.unity using Guid(c33c355a9fa298d44950563cfd4566ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29abe4da03fc627956c4e05da8ba8a4f') in 0.004223 seconds
-  Import took 0.006218 seconds .
+  path: Assets/Assets/Sound/tune.wav
+  artifactKey: Guid(bce7afa9c9c98c14ebac1d067badf67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Sound/tune.wav using Guid(bce7afa9c9c98c14ebac1d067badf67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf60f5359e74ddf6a1c53c9ba809c066') in 0.097139 seconds
+  Import took 0.099077 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000863 seconds.
+Registered in 0.000898 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
+- Completed reload, in  0.700 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.2 MB.
-System memory in use after: 61.3 MB.
+System memory in use before: 60.8 MB.
+System memory in use after: 60.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.357400 ms (FindLiveObjects: 0.110000 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.202400 ms  DeleteObjects: 0.014900 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 1.508000 ms (FindLiveObjects: 0.113500 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.347100 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.8 MB.
+System memory in use after: 60.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.304600 ms (FindLiveObjects: 0.111300 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.151800 ms  DeleteObjects: 0.010200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

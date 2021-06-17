@@ -32,16 +32,29 @@ public class arrowPower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+
+
+        if(BigFishWeBalin.shootPower > 16)
         {
-            BigFishWeBalin.shootPower += 25;
+            if (BigFishWeBalin.shootPower < 30)
+            {
+                Arrow.sprite = g1;
+            }
         }
 
-        if(BigFishWeBalin.shootPower > 31)
+        if (BigFishWeBalin.shootPower > 31)
+        {
+            if (BigFishWeBalin.shootPower < 45)
+            {
+                Arrow.sprite = g2;
+            }
+        }
+
+        if (BigFishWeBalin.shootPower > 46)
         {
             if (BigFishWeBalin.shootPower < 60)
             {
-                Arrow.sprite = g1;
+                Arrow.sprite = g3;
             }
         }
 
@@ -49,7 +62,7 @@ public class arrowPower : MonoBehaviour
         {
             if (BigFishWeBalin.shootPower < 90)
             {
-                Arrow.sprite = g2;
+                Arrow.sprite = g4;
             }
         }
 
@@ -57,7 +70,7 @@ public class arrowPower : MonoBehaviour
         {
             if (BigFishWeBalin.shootPower < 120)
             {
-                Arrow.sprite = g3;
+                Arrow.sprite = g5;
             }
         }
 
@@ -65,29 +78,13 @@ public class arrowPower : MonoBehaviour
         {
             if (BigFishWeBalin.shootPower < 150)
             {
-                Arrow.sprite = g4;
+                Arrow.sprite = g6;
             }
         }
 
         if (BigFishWeBalin.shootPower > 151)
         {
             if (BigFishWeBalin.shootPower < 180)
-            {
-                Arrow.sprite = g5;
-            }
-        }
-
-        if (BigFishWeBalin.shootPower > 180)
-        {
-            if (BigFishWeBalin.shootPower < 210)
-            {
-                Arrow.sprite = g6;
-            }
-        }
-
-        if (BigFishWeBalin.shootPower > 211)
-        {
-            if (BigFishWeBalin.shootPower < 240)
             {
                 Arrow.sprite = g7;
             }
