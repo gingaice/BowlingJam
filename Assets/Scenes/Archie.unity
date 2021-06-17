@@ -1891,6 +1891,7 @@ GameObject:
   - component: {fileID: 417209567}
   - component: {fileID: 417209566}
   - component: {fileID: 417209565}
+  - component: {fileID: 417209569}
   - component: {fileID: 417209564}
   m_Layer: 0
   m_Name: Leg
@@ -2009,6 +2010,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417209562}
   m_Mesh: {fileID: 2534964839176971238, guid: aacf49c1e1ab391459facf64e8eb630e, type: 3}
+--- !u!114 &417209569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417209562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919cfe98876777d42aadf52fa2597472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rigidbody: {fileID: 0}
+  Multiplier: 0
+  showShoot: 0
+  num: 0
+  freezeAngles: 0
+  startPower: 0
+  up: 0
+  down: 0
 --- !u!1 &418290892
 GameObject:
   m_ObjectHideFlags: 0
@@ -4977,6 +4998,7 @@ GameObject:
   - component: {fileID: 1123753265}
   - component: {fileID: 1123753264}
   - component: {fileID: 1123753263}
+  - component: {fileID: 1123753268}
   - component: {fileID: 1123753262}
   m_Layer: 0
   m_Name: BowlBall
@@ -5121,6 +5143,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123753260}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1123753268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123753260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919cfe98876777d42aadf52fa2597472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rigidbody: {fileID: 1123753262}
+  Multiplier: 0
+  showShoot: 0
+  num: 0
+  freezeAngles: 0
+  startPower: 0
+  up: 0
+  down: 0
 --- !u!1 &1128255780
 GameObject:
   m_ObjectHideFlags: 0
@@ -6638,7 +6680,7 @@ MonoBehaviour:
   _Fish: {fileID: 1252424938}
   _FireEx: {fileID: 1607801357}
   spawn: {fileID: 124466250}
-  under: {fileID: 0}
+  under: {fileID: 2057299261}
   _spawnedIn1: 0
   _spawnedIn2: 0
   _spawnedIn3: 0
@@ -7852,6 +7894,7 @@ GameObject:
   - component: {fileID: 1607801362}
   - component: {fileID: 1607801361}
   - component: {fileID: 1607801360}
+  - component: {fileID: 1607801363}
   - component: {fileID: 1607801359}
   - component: {fileID: 1607801358}
   m_Layer: 0
@@ -7974,6 +8017,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607801356}
   m_Mesh: {fileID: 5185690286220041495, guid: 3d2c6cb45fc24f041aeb7df7f532aafb, type: 3}
+--- !u!114 &1607801363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607801356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919cfe98876777d42aadf52fa2597472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rigidbody: {fileID: 0}
+  Multiplier: 0
+  showShoot: 0
+  num: 0
+  freezeAngles: 0
+  startPower: 0
+  up: 0
+  down: 0
 --- !u!1 &1741310778
 GameObject:
   m_ObjectHideFlags: 0
@@ -8785,6 +8848,7 @@ GameObject:
   - component: {fileID: 1982211351}
   - component: {fileID: 1982211350}
   - component: {fileID: 1982211349}
+  - component: {fileID: 1982211353}
   - component: {fileID: 1982211348}
   m_Layer: 0
   m_Name: Toast
@@ -8903,6 +8967,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982211346}
   m_Mesh: {fileID: -1226817584057097758, guid: bdf16daa52bb3294fa791d986fccb560, type: 3}
+--- !u!114 &1982211353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982211346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919cfe98876777d42aadf52fa2597472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rigidbody: {fileID: 0}
+  Multiplier: 0
+  showShoot: 0
+  num: 0
+  freezeAngles: 0
+  startPower: 0
+  up: 0
+  down: 0
 --- !u!1 &1996823899
 GameObject:
   m_ObjectHideFlags: 0
