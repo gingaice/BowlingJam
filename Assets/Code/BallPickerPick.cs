@@ -45,75 +45,77 @@ public class BallPickerPick : MonoBehaviour
             {
                 Debug.Log("OwO");
                 _BowlBall.position = spawn.position;
+                _spawnedIn1 = false;
             }
 
             if (_spawnedIn2 == true)
             {
                 Debug.Log("OwO");
                 _Fridge.position = spawn.position;
+                _spawnedIn2 = false;
             }
 
             if (_spawnedIn3 == true)
             {
                 Debug.Log("OwO");
                 _ManLegs.position = spawn.position;
+                _spawnedIn3 = false;
             }
 
             if (_spawnedIn4 == true)
             {
                 Debug.Log("OwO");
                 _Toaster.position = spawn.position;
+                _spawnedIn4 = false;
             }
 
             if (_spawnedIn5 == true)
             {
                 Debug.Log("OwO");
                 _Fish.position = spawn.position;
+                _spawnedIn5 = false;
             }
 
             if (_spawnedIn6 == true)
             {
                 Debug.Log("OwO");
                 _FireEx.position = spawn.position;
+                _spawnedIn6 = false;
             }
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("obj"))
-        {
-            Debug.Log("OwO");
-
-            if (other.gameObject.name == "BowlinBall")
+            if (other.name == "BowlinBall")
             {
                 _spawnedIn1 = true;
             }
 
-            if (other.gameObject.name == "Fridge")
+            if (other.name == "Fridge")
             {
                 _spawnedIn2 = true;
             }
 
-            if (other.gameObject.name == "ManLeg")
+            if (other.name == "ManLeg")
             {
                 _spawnedIn3 = true;
             }
 
-            if (other.gameObject.name == "Toaster")
+            if (other.name == "Toaster")
             {
                 _spawnedIn4 = true;
             }
 
-            if (other.gameObject.name == "Fish")
+            if (other.name == "Fish")
             {
                 _spawnedIn5 = true;
             }
 
-            if (other.gameObject.name == "FireEx")
+            if (other.name == "FireEx")
             {
                 _spawnedIn6 = true;
             }
-        }
+        
     }
 }

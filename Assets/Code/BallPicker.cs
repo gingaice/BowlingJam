@@ -14,7 +14,7 @@ public class BallPicker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             SpinWheel();
         }
