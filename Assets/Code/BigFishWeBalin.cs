@@ -19,6 +19,8 @@ public class BigFishWeBalin : MonoBehaviour
 
     public bool up;
     public bool down;
+    public AudioSource audioSource;
+    public AudioClip roll;
 
     // Start is called before the first frame update
     void Start()
@@ -67,6 +69,10 @@ public class BigFishWeBalin : MonoBehaviour
             num = 3;
             StartCoroutine(Timer());
             Debug.Log("start");
+            audioSource = GetComponent<AudioSource>();
+            audioSource.clip = roll;
+            audioSource.Play();
+            Debug.Log("audioplaying");
         }
 
         if(up == true)
