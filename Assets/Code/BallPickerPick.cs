@@ -126,7 +126,7 @@ public class BallPickerPick : MonoBehaviour
             if (other.name == "FireEx")
             {
 
-                    _spawnedIn1 = true;
+                    _spawnedIn6 = true;
                 
             }
         
