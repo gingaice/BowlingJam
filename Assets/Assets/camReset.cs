@@ -31,5 +31,5 @@ public class camReset : MonoBehaviour
             Cam3.enabled = false;
         }
     }
-
+   
 }
